@@ -47,6 +47,9 @@
       <md-checkbox [checked]="true">Checked</md-checkbox>
       <md-checkbox [indeterminate]="true">Indeterminate</md-checkbox>
       <md-checkbox [disabled]="true">Disabled</md-checkbox>
+      <md-checkbox  class ="recogniaBlack" disableRipple> Classic Pattern </md-checkbox>
+      <md-checkbox  class ="newTL" disableRipple> Classic Pattern </md-checkbox>
+      <input type="checkbox" name="" value="">
     </md-card>
 
     <md-card>
@@ -76,6 +79,25 @@
           &nbsp;
         </span>
       </md-input>
+
+       <div style="margin-top: 20px">
+        First name:
+        <md-input class="recogniaInput black">
+           <!--<input ng-model="abc">-->
+        </md-input>
+      </div>
+      <div style="margin-top: 20px">
+        Start:
+        <md-input class="recogniaInput td">
+           <!--<input ng-model="abcd">-->
+        </md-input>
+     </div>
+      <div style="margin-top: 20px">
+        <md-input md-no-float class="recogniaInput search">    
+           <!--<input placeholder="Search" ng-model="search">-->
+        </md-input>
+         <i class="fa fa-search searchIcon" aria-hidden="true"></i>
+      </div>
     </md-card>
 
     <md-card>

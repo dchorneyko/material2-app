@@ -139,3 +139,71 @@ button.recogniaNewTLButton {
 button.recogniaNewTLButton:not([disabled]):hover {
   background-color: black;
 }
+/*md-checkbox .recogniaBlack .md-checkbox-inner-container:after{
+      top: 4px;
+      right: 4px;
+      bottom: 4px;
+      left: 4px;
+}*/
+
+md-checkbox.recogniaBlack label div.md-checkbox-inner-container{
+    height: 15px;
+    width: 15px;
+  }
+
+md-checkbox.recogniaBlack label .md-checkbox-inner-container .md-checkbox-frame{
+     border-radius: 5px;
+    border: 1px solid #757575; 
+    background: #DDDDDD;
+ }
+
+md-checkbox.recogniaBlack.md-checkbox-checked label .md-checkbox-inner-container .md-checkbox-background{
+    background-color:#DDDDDD;
+    border-radius: 5px;
+    border: 1px solid #757575; 
+}
+
+md-checkbox.recogniaBlack.md-checkbox-checked label .md-checkbox-inner-container .md-checkbox-background .md-checkbox-checkmark-path{
+    stroke: black !important;
+    animation :none；
+}
+
+md-checkbox.newTL.md-checkbox-checked label .md-checkbox-inner-container .md-checkbox-background{
+       background-color:black;
+}
+
+/*md-input.recogniaInput div.md-errors-spacer{
+ min-height: 0px !important;
+}*/
+
+/*md-input.black input{
+     border-width: 1px 1px 1px 1px;
+     height: 25px; 
+     background-color: #272727;
+     color: white;
+}
+
+md-input.td input{
+     border-width: 1px 1px 1px 1px;
+     height: 40px; 
+     border-radius: 10px;
+}
+
+md-input.search input{
+     border-width: 1px 1px 1px 1px;
+     height: 40px; 
+     border-radius: 5px;
+     width: 600px;
+     padding-left: 15px;
+}
+
+.searchIcon{
+        margin-left: -40px;
+}*/
+
+/*md-input.search label{
+    transform: translate3d(0, 33px, 0) scale(1);
+    padding-left: 15px
+}*/
+
+
