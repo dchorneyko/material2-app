@@ -71,3 +71,71 @@ md-sidenav-layout.m2app-dark {
 .app-progress {
   margin: 20px;
 }
+
+button.recogniaDefaultButton {
+  margin-top: 20;
+  margin-bottom: 20px;
+  margin-left: 0;
+  min-width: 1%;
+  min-height: 1%;
+  line-height: 20px;
+  background: transparent;
+}
+
+button.recogniaDefaultButton:hover::after{
+  background-color: transparent
+}
+
+button.RecogniaButton{
+    min-width: 1%;
+     min-height: 1%;
+    line-height: 20px;
+    cursor: pointer;
+    cursor: hand;
+    border: 1px solid #888;
+    background-color: #888;
+    color: #D4D4D4;
+    padding: 3px;
+    border-radius: 4px;
+    font-weight: 700;
+    text-transform: capitalize !important;
+}
+
+button.RecogniaButton:hover::after{
+  background-color: transparent
+}
+
+button.RecogniaTDButton{
+    min-width: 1%;
+    min-height: 1%;
+    border-radius: 8px;
+    background-color: #f9f9fa;
+    background-image: linear-gradient(#fff,#f3f3f4);
+    border: 1px solid #f0f0f2;
+    box-shadow: 1px 1px 0 1px #d9d9d9;
+    color: #545454;
+    padding: 2px 15px;
+    font-size: 11px;
+    text-transform: capitalize !important;
+    margin-right: 20px;
+}
+
+button.RecogniaTDButton:hover::after{
+  background-color: transparent
+}
+
+
+button.recogniaNewTLButton {
+    margin-bottom: 20px;
+    margin-left: 0;
+    min-width: 18%;
+    min-height: 1%;
+    background: #13CA60;
+    height: 35px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+button.recogniaNewTLButton:not([disabled]):hover {
+  background-color: black;
+}
